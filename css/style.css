@@ -1,0 +1,37 @@
+.lien-bouton{
+    /* on lui enleve son soulignement  */
+    text-decoration: none;
+    /* je veux quil sois ecrit en noir  */
+    color: black;
+    /* je veux quil y ai un fon coloré */
+    background-color: #389435;
+    /* On va etebdre le fon coloré autour du texte  */
+    padding:  10px;
+    /* Un bouton carré c'est moche, nous voulont de larondi */
+    border-radius: 30px;
+    /* on veux centre le bouton  */  
+}
+ 
+.lien-bouton:hover{
+    /* quant la souris passe au dessus d un élément  lien bouton 
+    Nous allons changer legerement sa couleur   */
+    background-color: #35e92f;
+}
+.center{
+    text-align: center;
+}
+
+label,input, select {
+    display: block;
+}
+
+form *{
+    width: 40%;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+label, input[type="submit"]{
+    margin-top: 1em;
+}
+    
