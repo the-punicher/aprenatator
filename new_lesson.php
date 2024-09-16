@@ -32,5 +32,10 @@
 
     
     </form>
+
+    <div class="center marge">
+        <a class="lien-bouton " href="index.php">Retour a page  principale</a>
+
+    </div>
 </body>
 </html>

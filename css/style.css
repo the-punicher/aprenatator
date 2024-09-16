@@ -4,7 +4,7 @@
     /* je veux quil sois ecrit en noir  */
     color: black;
     /* je veux quil y ai un fon coloré */
-    background-color: #389435;
+    background-color: #49c744;
     /* On va etebdre le fon coloré autour du texte  */
     padding:  10px;
     /* Un bouton carré c'est moche, nous voulont de larondi */
@@ -15,7 +15,7 @@
 .lien-bouton:hover{
     /* quant la souris passe au dessus d un élément  lien bouton 
     Nous allons changer legerement sa couleur   */
-    background-color: #35e92f;
+    background-color: #11f709;
 }
 .center{
     text-align: center;
@@ -25,7 +25,7 @@ label,input, select {
     display: block;
 }
 
-form *{
+form {
     width: 40%;
     margin-left: auto;
     margin-right: auto;
@@ -35,3 +35,49 @@ label, input[type="submit"]{
     margin-top: 1em;
 }
     
+.marge {
+    margin-top: 3em ;
+}
+
+
+
+
+.container {
+    margin-top: 4em;
+    min-height: 100vh;
+    width: 100%;
+    display: flex;
+    /* Par defaut le flex et en jutify content start
+    
+    le jusify content et la propriete  qui aligne les flex par rapport a leur axe principal.
+    l'AXE principale depent  de lorientation du flex
+    par defaut  lorientation et en mode row*/
+     justify-content: space-evenly;
+     flex-wrap: wrap;
+}
+
+ .flex-test {
+    width: 19%;
+    height: 150px;
+    background-color: rgb(0, 162, 255);
+    border-radius: 5px;
+    box-shadow: 10px 5px 5px #c6c6c6;
+ }
+
+ .date {
+    text-align:left;
+    font-size: 0.5em;
+    font-weight: bold;
+    margin-left: 1em;
+    margin-top: 5em;
+
+ }
+
+ .flex-test:hover {
+    background-color: rgb(0, 255, 55);
+    cursor: pointer;
+ }
+
+ .link-card{
+    color: black;
+ }
