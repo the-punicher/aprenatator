@@ -39,6 +39,9 @@
                  <h3 class='center'><a class='link-card' href='lesson.php?id=$lesson[lesson_id]'>$maj</a></h3>
                  <p class='center'>$lesson[lesson_category]</p>
                  <p class='date'> Derniere mise a jour: $lesson[lesson_modify_at]</p>
+                 <p class='center'><a href='lesson_read.php?id=$lesson[lesson_id]'>lire la leçon</a></p>
+                <p class='center'><a href='lesson.php?id=$lesson[lesson_id]'>modifier la leçon</a></p>
+
         </div>"; 
         }
     ?>

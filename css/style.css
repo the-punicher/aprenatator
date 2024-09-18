@@ -25,7 +25,7 @@ label,input, select {
     display: block;
 }
 
-form {
+form label, form input {
     width: 40%;
     margin-left: auto;
     margin-right: auto;
@@ -80,4 +80,10 @@ label, input[type="submit"]{
 
  .link-card{
     color: black;
+ }
+
+
+ .tox, .tox-tinymce, .tox-focus{
+    height: 100vh !important;
+    max-height: 100vh !important;
  }
