@@ -45,6 +45,9 @@ if(isset($_GET['id'])){
     <script>
         tinymce.init({
             selector:"#content",
+            plugins:["fullsceen", "code", "emoticons","image", "lists", "searchreplace" ],
+            toolbar:"fullscreen | undo redo | blocks | bold italic | alignleft aligncenter alignright alignjustify | outdent indent | code | emoticons | image | numlist bullist | searchreplace",
+
             license_key:"uilgpxaa02zosgq3rjbd1j2rzzyc5vhq83vyyzc4ddq2zhxn",
             width:"100%",
             min_height:"100%",

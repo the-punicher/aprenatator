@@ -68,14 +68,13 @@ label, input[type="submit"]{
     text-align:left;
     font-size: 0.5em;
     font-weight: bold;
-    margin-left: 1em;
-    margin-top: 5em;
+  
 
  }
 
  .flex-test:hover {
     background-color: rgb(0, 255, 55);
-    cursor: pointer;
+   
  }
 
  .link-card{
@@ -86,4 +85,19 @@ label, input[type="submit"]{
  .tox, .tox-tinymce, .tox-focus{
     height: 100vh !important;
     max-height: 100vh !important;
+ }
+
+
+ .container-vertical{
+    display: flex;
+    flex-direction: column;
+    justify-content:space-evenly ;
+  /* axe segondaire*/
+  align-items: center;
+  height: auto;
+  /* pour faire un margin top + botton*/
+    margin: 2em 0 ;
+    padding: 0 1em;
+
+
  }

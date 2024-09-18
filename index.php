@@ -35,12 +35,12 @@
         foreach($lessons as $lesson ){
             $maj = mb_strtoupper($lesson['lesson_name']);
             echo 
-            "<div class= flex-test>
-                 <h3 class='center'><a class='link-card' href='lesson.php?id=$lesson[lesson_id]'>$maj</a></h3>
-                 <p class='center'>$lesson[lesson_category]</p>
+            "<div class= 'flex-test container-vertical'>
+                 <h3 classe='center'>$maj</h3>
+                 <p >$lesson[lesson_category]</p>
                  <p class='date'> Derniere mise a jour: $lesson[lesson_modify_at]</p>
-                 <p class='center'><a href='lesson_read.php?id=$lesson[lesson_id]'>lire la leçon</a></p>
-                <p class='center'><a href='lesson.php?id=$lesson[lesson_id]'>modifier la leçon</a></p>
+                 <p ><a href='lesson_read.php?id=$lesson[lesson_id]'>lire la leçon</a></p>
+                <p ><a href='lesson.php?id=$lesson[lesson_id]'>modifier la leçon</a></p>
 
         </div>"; 
         }
